@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p {
+  color: #E6D5B8;
+}
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  width: 25%;
+  font-family: 'Roboto', sans-serif;
+  color: #1B1A17;
+  background-color: #FF3E6D;
+  text-align: left;
+}
+
+.colors {
+  color: #1B1A17;
+}
+
+.logo {
+  width: 80%;
+  margin-right: 10%;
+}
+
+.bodyl {
+  background-color: #1B1A17;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .carousel-control-next-icon:after
+{
+    font-family: 'Roboto', sans-serif;
+  content: '>';
+  font-size: 55px;
+  color: #A85CF9;
+}
+.carousel-control-next-icon:after:hover,.carousel-control-prev-icon:after:hover{
+  background-color: #C4D7E0;
+}
+.carousel-control-prev-icon:after {
+  font-family: 'Roboto', sans-serif;
+  content: '<';
+  font-size: 55px;
+  color: #A85CF9;
+} */
+.heading {
+  font-family: "Montserrat";
+  line-height: 4rem;
+  padding: 100px;
+}
+
+.space {
+  margin: 20px;
+  padding-left: 70px;
+}
+
+.button {
+  margin: 30px;
+}
+
+.phone {
+  margin-top: 50px;
+  height: 80%;
+  transform: rotate(20deg);
+}
+
+.profile {
+  border-radius: 100%;
+  width: 100px;
+}
+
+#lead {
+  padding: 100px;
+}
+
+.social {
+  color: #E6D5B8;
+  padding: 2%;
+}
+
+.search {
+  align-items: center;
+  margin-top: 5%;
+}
+.searchbtn{
+  width: 100px;
+  margin-left: 30px;
+}
+
+.sear {
+  width: 80%;
+  height: 10%;
+}
+
+.testimonial-img {
+  width: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+@media (max-width: 992px) {
+  .navbarTogglerDemo01 {
+    display: none;
+  }
+
+  .phone {
+    transform: rotate(0);
+    padding-top: 100px;
+  }
+
+
+  .downloadbutton1 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .downloadbutton2 {
+    position: absolute;
+    right:  30%;
+  }
+}
